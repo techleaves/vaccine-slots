@@ -1,0 +1,83 @@
+.select-search__input, .select-search {
+  width: 100% !important;
+}
+.select-search__input {
+  text-align: justify !important;
+}
+
+.select-search__select {
+  text-align: justify !important;
+}
+thead {
+  tr {
+    th {
+      font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    }
+  }
+}
+table {
+  tbody {
+    tr.available {
+      background-color:#9FFAD5;
+      z-index: -1;
+    }
+  }
+}
+.pincode_toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  label {
+    display: inline-flex;
+  }
+}
+.alert_toggle {
+  display: flex;
+  // align-items: center;
+  // justify-content: flex-end;
+  label {
+    display: inline-flex;
+  }
+}
+.date_picker_block {
+  // display: flex;
+    align-items: center;
+    justify-content: inherit;
+    height: 101px;
+    .react-datepicker-wrapper {
+      width: 100%;
+    }
+    .react-datepicker__input-container {
+      input {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+    }
+}
+@media screen AND (max-width: 40em) {
+  .responsiveTable td .tdBefore {
+
+  font-size: 16px;
+    font-weight: bolder !important;
+    color: brown;
+}
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px !important;
+}
+}
